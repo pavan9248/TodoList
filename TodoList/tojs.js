@@ -76,7 +76,7 @@ function createandappendtodo(todo)
         labelelement.id=labelid;
         labelcontainer.appendChild(labelelement);
 
-        let delcontainer=document.createElement('div');
+        let delcontainer=document.createElement("div");
         delcontainer.classList.add("delete-icon-container");
         labelcontainer.appendChild(delcontainer);
 
